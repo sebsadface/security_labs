@@ -9,7 +9,12 @@ define start
     continue
 end
 
-# command "iff" is alias to "info frame"
+# command "iff" is an alias to "info frame"
 define iff
     info frame
+end
+
+# command "ifr" is an alias to "info register"
+define ifr
+    info register
 end
